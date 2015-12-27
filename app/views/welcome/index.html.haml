@@ -1,1 +1,29 @@
-%h1	This is the Welcome placeholder.
+#banner
+	.banner_content
+		%h1 NoteNote
+		%p Your online notes. Never forget an idea again.
+		%button= link_to "Sign Up", new_user_registration_path
+#testimonial
+	.wrapper
+		%h2 Rails do the MAGIC!	
+		%p.quote "A great app for Notes!"
+		%p.name - Tomas Ibarra
+#callouts
+	.callout_inner
+		.wrapper
+			.callout
+				%i.fa.fa-thumbs-up
+				%h2 Easy Use
+				%p Create notes using ruby on rails, just to remember your plans.
+
+			.callout
+				%i.fa.fa-rocket
+				%h2 Faster
+				%p It is like using post-its, just 100% more faster, and beautiful.
+
+			.callout
+				%i.fa.fa-cloud
+				%h2 Portable
+				%p You can take them with you everywhere, anytime!
+%footer
+	%p &copy; Tomas Ibarra 2015
