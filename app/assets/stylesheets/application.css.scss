@@ -6,3 +6,15 @@
 @import "global.css.scss";
 @import "notes.css.scss";
 @import "welcome.css.scss";
+
+#user_email, #user_password, #user_password_confirmation {
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
+
+.notice, .alert, .flash {
+  text-align: center;
+  padding: 10px 0 0 0 transparent;
+  font-weight: bold;
+}
