@@ -43,7 +43,7 @@
 			border-radius: 2rem;
 			text-decoration: none;
 			color: $green;
-			border: 5px solid #E9E9E9;
+			border: 5px solid $light_gray;
 			@include bold_font;
 			background: transparent;
 		}
